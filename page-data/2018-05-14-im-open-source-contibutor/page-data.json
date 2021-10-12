@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/2018-05-14-im-open-source-contibutor/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"YH.K Logs"}},"markdownRemark":{"id":"4a27e2eb-1f5e-54e3-91ae-ca298d6809ef","excerpt":"오픈소스에 대해 별 생각없이 살고 있다가 우연치 않게 업무중에 에러가 발생하여 수정 후 PR을 날려보았다. 첫 PR인데 머지되서 기쁘다. 열심히 살아야겠다. 나도 오픈소스 기여자다!","html":"<p>오픈소스에 대해 별 생각없이 살고 있다가 우연치 않게 업무중에 에러가 발생하여 수정 후 PR을 날려보았다. 첫 PR인데 머지되서 기쁘다. 열심히 살아야겠다.</p>\n<!-- more -->\n<p><img src=\"/images/tui-chart-contribute.png\" alt=\"나도 오픈소스 기여자다!\"></p>\n<!--stackedit_data:\neyJoaXN0b3J5IjpbNTcxNzE5ODg3LC02MjMyNDM2MzEsLTE0Nz\ng5NTAzNDBdfQ==\n-->","frontmatter":{"title":"나도 오픈소스 기여자다!","date":"May 14, 2018","description":null}},"previous":{"fields":{"slug":"/2018-05-05-choice-chart-library/"},"frontmatter":{"title":"자바스크립트 차트 라이브러리"}},"next":{"fields":{"slug":"/2018-07-21-my-first-project/"},"frontmatter":{"title":"첫 프로젝트"}}},"pageContext":{"id":"4a27e2eb-1f5e-54e3-91ae-ca298d6809ef","previousPostId":"7689dcdc-56f9-5f0b-8eb5-2391db87bcb9","nextPostId":"4d008be5-6857-59c2-989e-2afbb68d6f99"}},
+    "staticQueryHashes": ["230163734","2841359383"]}
