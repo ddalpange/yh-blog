@@ -1,16 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `YH.K Logs`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Yohan kim`,
+      summary: `who is software engineer with Riiid`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Engineering experiences`,
+    siteUrl: `https://ddalpange.github.io`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `QL2cIXtYO3VZUZ2`,
+      github: `ddalpange`,
+      instagram: `ddalpange`,
     },
-  },
+  },  
   plugins: [
     `gatsby-plugin-image`,
     {
@@ -51,12 +53,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `googledfac8b467ded7e19`,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {

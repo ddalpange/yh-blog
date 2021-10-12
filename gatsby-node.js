@@ -62,8 +62,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-
+    const value = createFilePath({ node, getNode, trailingSlash: true })
+    console.log(value);
     createNodeField({
       name: `slug`,
       node,
@@ -95,6 +95,9 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Social {
       twitter: String
+      instagram: String
+      github: String
+      facebook: String
     }
 
     type MarkdownRemark implements Node {
