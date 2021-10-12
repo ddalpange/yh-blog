@@ -11137,6 +11137,11 @@ typeface-noto-sans-kr@^1.1.13:
   resolved "https://registry.yarnpkg.com/typeface-noto-sans-kr/-/typeface-noto-sans-kr-1.1.13.tgz#4b583b47dd8ac8b3ce87d29d3b8b99c034738530"
   integrity sha512-78s/jG4jmKrF21pUWGN7QE983oYtanvAOVHyxOfMFHQQAJvGYeVBNKGnQFtKylnfukcAmWQvDIZKkaQpc8f+3w==
 
+typeface-noto-serif-kr@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-noto-serif-kr/-/typeface-noto-serif-kr-1.1.13.tgz#6281405aeff5a21fbc18520468343cec7cb566b2"
+  integrity sha512-ly5gzBF9yUzs2RAqtDuexzcBntQVx8Upfs7cylAdUpsF3XA4O/O8HxTSe5C28w9aJ+9SAUWiIgY66wftFRwtgA==
+
 unbox-primitive@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.0.1.tgz#085e215625ec3162574dc8859abee78a59b14471"

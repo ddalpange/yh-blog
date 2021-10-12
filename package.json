@@ -30,7 +30,8 @@
     "react-helmet": "^6.1.0",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75",
-    "typeface-noto-sans-kr": "^1.1.13"
+    "typeface-noto-sans-kr": "^1.1.13",
+    "typeface-noto-serif-kr": "^1.1.13"
   },
   "devDependencies": {
     "prettier": "2.3.2"

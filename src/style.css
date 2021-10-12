@@ -27,13 +27,15 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Noto Sans KR", -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
+  --fontFamily-sans: "Noto Sans KR", -apple-system, system-ui,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --fontFamily-serif: "Noto Serif KR", "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
+  --fontWeight-light: 300;
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;
@@ -55,10 +57,10 @@
   --fontSize-6: 2.288rem;
   --fontSize-7: 2.686rem;
   --color-primary: #cde3ff;
-  --color-text: #BFBFBF  ;
-  --color-text-light: #DDDDDD;
-  --color-heading: #EBEBEB  ;
-  --color-heading-black: #EEEEEE;
+  --color-text: #bfbfbf;
+  --color-text-light: #dddddd;
+  --color-heading: #ebebeb;
+  --color-heading-black: #eeeeee;
   --color-accent: #d1dce5;
   --color-background: #040404;
 }
@@ -81,6 +83,7 @@ html {
 body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
+  font-weight: var(--fontWeight-normal);
   color: var(--color-text);
   background-color: var(--color-background);
 }
@@ -104,6 +107,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+  font-weight: var(--fontWeight-light);
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
@@ -115,12 +119,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--fontWeight-bold);
+  font-weight: var(--fontWeight-normal);
   color: var(--color-heading);
 }
 
 h1 {
-  font-weight: var(--fontWeight-black);
+  font-weight: var(--fontWeight-semibold);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
 }
