@@ -12,7 +12,7 @@ module.exports = {
       github: `ddalpange`,
       instagram: `ddalpange`,
     },
-  },  
+  },
   plugins: [
     `gatsby-plugin-image`,
     {

@@ -1,4 +1,5 @@
 /* CSS Custom Properties Definitions */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
 
 :root {
   --maxWidth-none: "none";
@@ -27,12 +28,9 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Noto Sans KR", -apple-system, system-ui,
-    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
-  --fontFamily-serif: "Noto Serif KR", "Georgia", Cambria, "Times New Roman",
-    Times, serif;
+  --fontFamily-sans: Pretendard, -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-light: 300;
@@ -52,10 +50,10 @@
   --fontSize-1: 1rem;
   --fontSize-2: 1.2rem;
   --fontSize-3: 1.44rem;
-  --fontSize-4: 1.728rem;
-  --fontSize-5: 1.974rem;
-  --fontSize-6: 2.288rem;
-  --fontSize-7: 2.686rem;
+  --fontSize-4: 1.628rem;
+  --fontSize-5: 1.874rem;
+  --fontSize-6: 2.088rem;
+  --fontSize-7: 2.286rem;
   --color-primary: #cde3ff;
   --color-text: #bfbfbf;
   --color-text-light: #dddddd;
@@ -268,6 +266,9 @@ a:focus {
 .post-list-item {
   margin-bottom: var(--spacing-8);
   margin-top: var(--spacing-8);
+  border: 1px solid var(--color-accent);
+  border-bottom-width: 4px;
+  padding: var(--spacing-4);
 }
 
 .post-list-item p {
@@ -275,7 +276,8 @@ a:focus {
 }
 
 .post-list-item h2 {
-  font-size: var(--fontSize-4);
+  font-size: var(--fontSize-3);
+  font-weight: var(--fontWeight-light);
   color: var(--color-primary);
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);
@@ -289,7 +291,7 @@ a:focus {
   font-weight: var(--fontWeight-bold);
   font-family: var(--font-heading);
   text-decoration: none;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-3);
 }
 
 .bio {
