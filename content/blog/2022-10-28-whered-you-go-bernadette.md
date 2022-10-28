@@ -1,6 +1,7 @@
 ---
 title: 약 먹는 것도 하나의 도전이더라.
-thumbnail: 
+description: 글쓰기 모임에서 “어디갔어 버나뎃”을 보고 남기는 글.
+thumbnail: ./images/195318_175026_4140.png
 date: 2022-10-28 18:39:55
 tags: []
 categories: []
